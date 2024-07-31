@@ -12,6 +12,7 @@ int main() {
 
     */
     
+    cout << fixed;
     cout.precision(6);
     int a = 13;
     double b = 0.165000;
