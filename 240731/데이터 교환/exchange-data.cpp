@@ -12,7 +12,8 @@ int main() {
     c = b;
     a = c;
 
-    cout << a << "\n" << b << "\n" << c << "\n" << " ";
+    cout << a << "\n" << b << "\n" << c << "\n" << endl;
+    
 
 
     return 0;
