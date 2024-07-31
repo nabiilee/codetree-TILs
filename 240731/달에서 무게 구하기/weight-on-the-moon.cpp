@@ -11,12 +11,13 @@ int main() {
     실수값은 전부 소숫점 6째짜리
 
     */
+    
+    cout.precision(6);
     int a = 13;
     double b = 0.165000;
     
-    cout.precision(6);
     double sum = a*b;
     cout << a << " * " << b << " = " << sum;
-    
+
     return 0;
 }
