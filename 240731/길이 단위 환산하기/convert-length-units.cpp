@@ -7,6 +7,9 @@ int main() {
     cin >> ft;
     //ft를 cm로 환산하기
     double ft_cm;
+    cout << fixed;
+    cout.precision(1);
+    
     ft_cm = ft * 30.48;
     cout << ft_cm;
     
