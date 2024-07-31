@@ -7,13 +7,12 @@ int main() {
     int b = 2;
     int c = 3;
 
+    int sum;
+
     sum = a + b + c;
 
-    a = sum;
-    b = sum;
-    c = sum;
-
+    a = b = c = sum;
     cout << a << " " << b << " " << c << " " << endl;
-    
+
     return 0;
 }
