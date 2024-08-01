@@ -8,7 +8,7 @@ int main() {
     if( a > b){
         cout << a-b << endl;
     }
-    else( a < b){
+    else if ( a < b){
         cout << b -a << endl;
     }
     return 0;
