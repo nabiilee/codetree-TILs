@@ -1,22 +1,21 @@
 #include <iostream>
+#include <iomanip> // For std::setprecision and std::fixed
+
 using namespace std;
 
 int main() {
-    // 여기에 코드를 작성해주세요.
     int a, b;
-    int c, d;
-    cout << fixed;
-    cout.precision(2);
+    cin >> a >> b; // Input two integers, a and b
 
-    c = a + b;
-    d = a - b;
+    // Compute the sum and difference
+    int sum = a + b;
+    int difference = a - b;
 
-    double e;
-    e = c/d;
-    cout << e << endl;
+    // Calculate the division of sum by difference
+    double result = static_cast<double>(sum) / difference;
 
+    // Output the result rounded to two decimal places
+    cout << fixed << setprecision(2) << result << endl;
 
-
-    
     return 0;
 }
