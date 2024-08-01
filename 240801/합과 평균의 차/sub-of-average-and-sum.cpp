@@ -15,9 +15,9 @@ int main() {
 
     //세 정수의 합에서 평균을 뺀 값
     f = d - e;
-    cout << d;
-    cout << e;
-    cout << f;
+    cout << d << endl;
+    cout << e << endl;
+    cout << f << endl;
 
 
 
