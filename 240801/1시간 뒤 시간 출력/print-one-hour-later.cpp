@@ -7,7 +7,7 @@ int main() {
     cin >> h;
     cin.get();
     cin >> m;
-    cout << h << ":" << m << endl;
+    cout << h << m << endl;
 
     return 0;
 }
