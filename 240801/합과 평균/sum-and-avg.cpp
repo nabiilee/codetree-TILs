@@ -9,7 +9,9 @@ int main() {
 
     int c;
     c = a + b;
-
+    cout << fixed;
+    cout.precision(1);
+    
     double d;
     d = (double) (a + b) / 2;
 
