@@ -11,5 +11,8 @@ int main() {
     else if ( a < b){
         cout << b -a << endl;
     }
+    else if ( a == b){
+        cout << b -a << endl;
+    }
     return 0;
 }
