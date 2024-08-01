@@ -1,15 +1,15 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
-    // 여기에 코드를 작성해주세요.
-    int h
-    string m;
-    
+    // 변수 선언 및 입력
+    int h, m;
     cin >> h;
     cin.get();
     cin >> m;
-    cout << h+1 << m << endl;
-
+    
+    // 출력
+    cout << h + 1 << ":" << m;
     return 0;
 }
