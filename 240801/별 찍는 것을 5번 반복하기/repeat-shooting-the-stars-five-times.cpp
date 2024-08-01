@@ -7,7 +7,7 @@ int main() {
         for (int i = 0 ; i < 10; i++){
             cout << "*";
         }
-        << "\n";
+        cout << "\n";
     }
 
     return 0;
