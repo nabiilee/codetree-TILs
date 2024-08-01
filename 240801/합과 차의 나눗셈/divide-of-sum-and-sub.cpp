@@ -10,8 +10,11 @@ int main() {
 
     c = a + b;
     d = a - b;
-    cout << c/d << endl;
-    
+
+    double e;
+    e = c/d;
+    cout << e << endl;
+
 
 
     
