@@ -3,10 +3,11 @@ using namespace std;
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    string a,
+    char a;
+    int k;
     int b, c;
     char d;
-    cin >> a >> b >> d >>c;
-    cout << a << c << d << b;
+    cin >> a >> k >> d >>  b >> d >>c;
+    cout << a << k << d << c << d << b;
     return 0;
 }
