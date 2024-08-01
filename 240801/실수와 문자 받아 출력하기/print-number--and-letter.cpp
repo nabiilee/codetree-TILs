@@ -6,12 +6,14 @@ int main() {
     char c;
     cout << fixed;
     cout.precision(2);
-    
+
     double a, b;
 
-    cin >> c;
-    cin >> a;
-    cin >> b;
+    cin >> c >> a >> b;
+
+    cout << c << endl;
+    cout << a << endl;
+    cout << b << endl;
 
 
 
