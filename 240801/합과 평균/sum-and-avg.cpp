@@ -9,7 +9,7 @@ int main() {
     c = a + b;
 
     int d;
-    d = (a + b) / 2;
+    d = (double) (a + b) / 2;
 
     cin >> a >> b;
     cout << c << " " << d;
