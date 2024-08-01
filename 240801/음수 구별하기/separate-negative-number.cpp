@@ -11,6 +11,7 @@ int main() {
         cout << a << endl;
     }
     else if(a <= 0){
+        cout << a << endl;
         cout << "minus" << endl;
     }
 
