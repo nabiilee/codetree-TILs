@@ -6,11 +6,11 @@ int main() {
     int a, b;
 
     cin >> a >> b;
-    
+
     int c;
     c = a + b;
 
-    int d;
+    double d;
     d = (double) (a + b) / 2;
 
     cout << c << " " << d;
